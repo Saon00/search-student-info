@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<title>Student Info</title>
+<title>Student Info</title>
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,422 +12,426 @@
 </head>
 
 <body>
+	<div class="child">
+		<div class="main">
+			<h2>Student's Information of "Computer Science and Engineering" Department</h2>
+			<h3>Session: 2017-18</h3>
+			<input id="myInput" type="text" placeholder="Search..." class="form-control"><br><br>
 
-	<div class="main">
-		<h2>Student's Information of "Computer Science and Engineering" Department</h2>
-		<h3 style="text-align: center;">Session: 2017-18</h3>
-		<input id="myInput" type="text" placeholder="Search..." class="form-control"><br><br>
 
-		<table class="table table-hover">
-			<thead class="thead-dark" style="background-color: rgb(173, 170, 170); font-weight: bold;">
-				<tr>
-					<th>Serial No.</th>
-					<th>Name</th>
-					<th>Roll No.</th>
-					<th>Registration No.</th>
-					<th>Phone Number</th>
-					<th>E-mail</th>
-					<th>Address</th>
-					<th>Github Profile</th>
-				</tr>
+			<table class="table table-hover">
+				<thead class="thead-dark" style="background-color: rgb(173, 170, 170); font-weight: bold;">
+					<tr>
+						<th>Serial No.</th>
+						<th>Name</th>
+						<th>Roll No.</th>
+						<th>Registration No.</th>
+						<th>Phone Number</th>
+						<th>E-mail</th>
+						<th>Address</th>
+						<th>Github Profile</th>
+					</tr>
 
-			<tbody id="myTable">
-				<tr>
-					<th>1</th>
-					<th>Md. Mehedi Ahsan</th>
-					<th>2501</th>
-					<th>1752</th>
-					<th>01929378419</th>
-					<th>ahsanmehedi041@gmail.com</th>
-					<th>Bagerhat</th>
-					<th> NULL </th>
-				</tr>
-				<tr>
-					<th>2</th>
-					<th>Md. Saon Sikder</th>
-					<th>2502</th>
-					<th>1753</th>
-					<th>01521260317</th>
-					<th>sikdersaon1@gmail.com</th>
-					<th>Dhaka</th>
-					<th><a href="https://github.com/Saon00">https://github.com/Saon00</th>
-				</tr>
-				<tr>
-					<th>3</th>
-					<th>Rafsan Ahmed Riki</th>
-					<th>2503</th>
-					<th>1754</th>
-					<th>01739158770</th>
-					<th>rafsanahmedbd21@gmail.com</th>
-					<th>Barisal</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>4</th>
-					<th>Nanziba Khan Biva</th>
-					<th>2504</th>
-					<th>1756</th>
-					<th>01971109631</th>
-					<th>nanzibabiva007@gmail.com</th>
-					<th>Faridpur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>5</th>
-					<th>Amirul Islam Sakib</th>
-					<th>2505</th>
-					<th>1757</th>
-					<th>01641603385</th>
-					<th>sakibsarder2@gmail.com</th>
-					<th>Barisal</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>6</th>
-					<th>Tushar Sen</th>
-					<th>2507</th>
-					<th>1759</th>
-					<th>1734733982</th>
-					<th>tusharsen192@gmail.com</th>
-					<th>Madaripur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>7</th>
-					<th>Md. Rakib</th>
-					<th>2509</th>
-					<th>1761</th>
-					<th>1734733982</th>
-					<th>tusharsen192@gmail.com</th>
-					<th>Narsingdi</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>8</th>
-					<th>A. M. Tasnim Alom</th>
-					<th>2510</th>
-					<th>1762</th>
-					<th>01906348847</th>
-					<th>tasnimalom013@gmail.com</th>
-					<th>Dinajpur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>9</th>
-					<th>Al Amin</th>
-					<th>2511</th>
-					<th>1763</th>
-					<th>01906348847</th>
-					<th>alamincse0517@gmail.com</th>
-					<th>Kushtia</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>10</th>
-					<th>Muhiul Islam</th>
-					<th>2513</th>
-					<th>1765</th>
-					<th>01782208560</th>
-					<th>auntualin@gmail.com</th>
-					<th>Faridpur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>11</th>
-					<th>Morsheda Akter Shorna</th>
-					<th>2514</th>
-					<th>1766</th>
-					<th>01521336978</th>
-					<th>morsheda.1998@gmail.com</th>
-					<th>Tangail</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>12</th>
-					<th>Suraia Easmin</th>
-					<th>2515</th>
-					<th>1767</th>
-					<th>01721989353</th>
-					<th>suraiaeasmin.fec.05@gmail.com</th>
-					<th>Rajbari</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>13</th>
-					<th>Md. Robiul Islam</th>
-					<th>2516</th>
-					<th>1768</th>
-					<th>01521235011</th>
-					<th>mdrobiulhassan01755@gmail.com</th>
-					<th>Faridpur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>14</th>
-					<th>Md. Muaz Hussain</th>
-					<th>2517</th>
-					<th>1769</th>
-					<th>01612519439</th>
-					<th>muazhussain7@gmail.com</th>
-					<th>Jessore</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>15</th>
-					<th>Adrita Sarker</th>
-					<th>2519</th>
-					<th>1772</th>
-					<th>01686517216</th>
-					<th>adritalopa1288@gmail.com</th>
-					<th>Dhaka</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>16</th>
-					<th>Saber Al Sakib</th>
-					<th>2520</th>
-					<th>1773</th>
-					<th>01777483518</th>
-					<th>saberalsakib4@gmail.com</th>
-					<th>Gazipur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>17</th>
-					<th>Md Sohanur Rahman</th>
-					<th>2521</th>
-					<th>1774</th>
-					<th>01626420807</th>
-					<th>m.sohan.rse@gmail.com</th>
-					<th>Kushtia</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>18</th>
-					<th>Momenatul Islam</th>
-					<th>2522</th>
-					<th>1776</th>
-					<th>01625548010</th>
-					<th>nympheanaochali@gmail.com</th>
-					<th>Chittagong</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>19</th>
-					<th>Anamul Haq Nisat</th>
-					<th>2523</th>
-					<th>1777</th>
-					<th>01932291279</th>
-					<th>anamulnisat@gmail.com</th>
-					<th>Dhaka</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>20</th>
-					<th>Rifa Tamanna Mitu</th>
-					<th>2525</th>
-					<th>1780</th>
-					<th>01966925858</th>
-					<th>rifamitu.30@gmail.com</th>
-					<th>NULL</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>21</th>
-					<th>Abu Siam</th>
-					<th>2526</th>
-					<th>1781</th>
-					<th>01960112553</th>
-					<th>siamcse01@gmail.com</th>
-					<th>Jamalpur</th>
-					<th><a href="https://github.com/SiamFec">https://github.com/SiamFec</th>
-					
-				</tr>
-				<tr>
-					<th>22</th>
-					<th>Md. Rakibul Islam</th>
-					<th>2527</th>
-					<th>1782</th>
-					<th>01799622217</th>
-					<th>md.rakibul.islam.0105@gmail.com</th>
-					<th>Rangpur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>23</th>
-					<th>Md. Farid Hossain</th>
-					<th>2530</th>
-					<th>1789</th>
-					<th>01738889599</th>
-					<th>farid.p2116@gmail.com</th>
-					<th>Sirajganj</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>24</th>
-					<th>Biozed Rhman Khan</th>
-					<th>2531</th>
-					<th>1790</th>
-					<th>01980400104</th>
-					<th>biozedrahman@gmail.com</th>
-					<th>Dhaka</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>25</th>
-					<th>Ataur Rahman Shah Fakir</th>
-					<th>2532</th>
-					<th>1791</th>
-					<th>1714365839</th>
-					<th>ataur2260@gmail.com</th>
-					<th>Narsingdi</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>26</th>
-					<th>Ratna Akter Jui</th>
-					<th>2533</th>
-					<th>1792</th>
-					<th>01704508956</th>
-					<th>ratnaakter890@gmail.com</th>
-					<th>Dhaka</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>27</th>
-					<th>Rifat Ara Nur Rekha</th>
-					<th>2534</th>
-					<th>1793</th>
-					<th>01729993593</th>
-					<th>ranrekha43@gmail.com</th>
-					<th>Sherpur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>28</th>
-					<th>Md. Shoaib Akhter</th>
-					<th>2535</th>
-					<th>1794</th>
-					<th>01685116294</th>
-					<th>sifuisu3@gmail.com</th>
-					<th>Tangail</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>29</th>
-					<th>Iqbal Hossain</th>
-					<th>2536</th>
-					<th>1795</th>
-					<th>01829484214</th>
-					<th>iqbalhossssain@gmail.com</th>
-					<th>Comilla</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>30</th>
-					<th>Md. Rakibul Islam Nahid</th>
-					<th>2537</th>
-					<th>1797</th>
-					<th>01914097884</th>
-					<th>rinahid.27@gmail.com</th>
-					<th>Gazipur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>31</th>
-					<th>Subir Das</th>
-					<th>2539</th>
-					<th>1800</th>
-					<th>01689586905</th>
-					<th>dasjoy104@gmail.com</th>
-					<th>Chittagong</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>32</th>
-					<th>Asif Khan</th>
-					<th>2540</th>
-					<th>1801</th>
-					<th>01627581170</th>
-					<th>asifics0@gmail.com</th>
-					<th>Gazipur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>33</th>
-					<th>Anamika Rahman</th>
-					<th>2541</th>
-					<th>1802</th>
-					<th>01793071766</th>
-					<th>NULL</th>
-					<th>Lakshmipur</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>34</th>
-					<th>Iffat E dil Nishat</th>
-					<th>2542</th>
-					<th>1804</th>
-					<th>01726047504</th>
-					<th>iffatnishat54@gmail.com</th>
-					<th>Chittagong</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>35</th>
-					<th>Krishnoranjon Roy</th>
-					<th>2543</th>
-					<th>1805</th>
-					<th>01738653311</th>
-					<th>krishnoroycse@gmail.com</th>
-					<th>Nilmfamari</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>36</th>
-					<th>Md. Naimul Islam Tipu</th>
-					<th>2544</th>
-					<th>1806</th>
-					<th>01748313779</th>
-					<th>tipucse05@gmail.com</th>
-					<th>Cumilla</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>37</th>
-					<th>Nustat Jahan</th>
-					<th>2545</th>
-					<th>1807/th>
-					<th>01729909795</th>
-					<th>nusratsizy808@gmail.com</th>
-					<th>Barisal</th>
-					<th>NULL</th>
-				</tr>
-				<tr>
-					<th>38</th>
-					<th>Salman Rahman</th>
-					<th>2547</th>
-					<th>1810/th>
-					<th>01517194869</th>
-					<th>salman.sahaz.bd@gmail.com</th>
-					<th>Rajbari</th>
-					<th>NULL</th>
-				</tr>
+				<tbody id="myTable">
+					<tr>
+						<th>1</th>
+						<th>Md. Mehedi Ahsan</th>
+						<th>2501</th>
+						<th>1752</th>
+						<th>01929378419</th>
+						<th>ahsanmehedi041@gmail.com</th>
+						<th>Bagerhat</th>
+						<th> NULL </th>
+					</tr>
+					<tr>
+						<th>2</th>
+						<th>Md. Saon Sikder</th>
+						<th>2502</th>
+						<th>1753</th>
+						<th>1521260317</th>
+						<th>sikdersaon1@gmail.com</th>
+						<th>Dhaka</th>
+						<th><a href="https://github.com/Saon00">https://github.com/Saon00</th>
+					</tr>
+					<tr>
+						<th>3</th>
+						<th>Rafsan Ahmed Riki</th>
+						<th>2503</th>
+						<th>1754</th>
+						<th>01739158770</th>
+						<th>rafsanahmedbd21@gmail.com</th>
+						<th>Barisal</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>4</th>
+						<th>Nanziba Khan Biva</th>
+						<th>2504</th>
+						<th>1756</th>
+						<th>01971109631</th>
+						<th>nanzibabiva007@gmail.com</th>
+						<th>Faridpur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>5</th>
+						<th>Amirul Islam Sakib</th>
+						<th>2505</th>
+						<th>1757</th>
+						<th>01641603385</th>
+						<th>sakibsarder2@gmail.com</th>
+						<th>Barisal</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>6</th>
+						<th>Tushar Sen</th>
+						<th>2507</th>
+						<th>1759</th>
+						<th>1734733982</th>
+						<th>tusharsen192@gmail.com</th>
+						<th>Madaripur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>7</th>
+						<th>Md. Rakib</th>
+						<th>2509</th>
+						<th>1761</th>
+						<th>1734733982</th>
+						<th>tusharsen192@gmail.com</th>
+						<th>Narsingdi</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>8</th>
+						<th>A. M. Tasnim Alom</th>
+						<th>2510</th>
+						<th>1762</th>
+						<th>01906348847</th>
+						<th>tasnimalom013@gmail.com</th>
+						<th>Dinajpur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>9</th>
+						<th>Al Amin</th>
+						<th>2511</th>
+						<th>1763</th>
+						<th>01906348847</th>
+						<th>alamincse0517@gmail.com</th>
+						<th>Kushtia</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>10</th>
+						<th>Muhiul Islam</th>
+						<th>2513</th>
+						<th>1765</th>
+						<th>01782208560</th>
+						<th>auntualin@gmail.com</th>
+						<th>Faridpur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>11</th>
+						<th>Morsheda Akter Shorna</th>
+						<th>2514</th>
+						<th>1766</th>
+						<th>01521336978</th>
+						<th>morsheda.1998@gmail.com</th>
+						<th>Tangail</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>12</th>
+						<th>Suraia Easmin</th>
+						<th>2515</th>
+						<th>1767</th>
+						<th>01721989353</th>
+						<th>suraiaeasmin.fec.05@gmail.com</th>
+						<th>Rajbari</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>13</th>
+						<th>Md. Robiul Islam</th>
+						<th>2516</th>
+						<th>1768</th>
+						<th>01521235011</th>
+						<th>mdrobiulhassan01755@gmail.com</th>
+						<th>Faridpur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>14</th>
+						<th>Md. Muaz Hussain</th>
+						<th>2517</th>
+						<th>1769</th>
+						<th>01612519439</th>
+						<th>muazhussain7@gmail.com</th>
+						<th>Jessore</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>15</th>
+						<th>Adrita Sarker</th>
+						<th>2519</th>
+						<th>1772</th>
+						<th>01686517216</th>
+						<th>adritalopa1288@gmail.com</th>
+						<th>Dhaka</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>16</th>
+						<th>Saber Al Sakib</th>
+						<th>2520</th>
+						<th>1773</th>
+						<th>01777483518</th>
+						<th>saberalsakib4@gmail.com</th>
+						<th>Gazipur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>17</th>
+						<th>Md Sohanur Rahman</th>
+						<th>2521</th>
+						<th>1774</th>
+						<th>01626420807</th>
+						<th>m.sohan.rse@gmail.com</th>
+						<th>Kushtia</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>18</th>
+						<th>Momenatul Islam</th>
+						<th>2522</th>
+						<th>1776</th>
+						<th>01625548010</th>
+						<th>nympheanaochali@gmail.com</th>
+						<th>Chittagong</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>19</th>
+						<th>Anamul Haq Nisat</th>
+						<th>2523</th>
+						<th>1777</th>
+						<th>01932291279</th>
+						<th>anamulnisat@gmail.com</th>
+						<th>Dhaka</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>20</th>
+						<th>Rifa Tamanna Mitu</th>
+						<th>2525</th>
+						<th>1780</th>
+						<th>01966925858</th>
+						<th>rifamitu.30@gmail.com</th>
+						<th>NULL</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>21</th>
+						<th>Abu Siam</th>
+						<th>2526</th>
+						<th>1781</th>
+						<th>01960112553</th>
+						<th>siamcse01@gmail.com</th>
+						<th>Jamalpur</th>
+						<th><a href="https://github.com/SiamFec">https://github.com/SiamFec</th>
 
-			</tbody>
+					</tr>
+					<tr>
+						<th>22</th>
+						<th>Md. Rakibul Islam</th>
+						<th>2527</th>
+						<th>1782</th>
+						<th>01799622217</th>
+						<th>md.rakibul.islam.0105@gmail.com</th>
+						<th>Rangpur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>23</th>
+						<th>Md. Farid Hossain</th>
+						<th>2530</th>
+						<th>1789</th>
+						<th>01738889599</th>
+						<th>farid.p2116@gmail.com</th>
+						<th>Sirajganj</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>24</th>
+						<th>Biozed Rhman Khan</th>
+						<th>2531</th>
+						<th>1790</th>
+						<th>01980400104</th>
+						<th>biozedrahman@gmail.com</th>
+						<th>Dhaka</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>25</th>
+						<th>Ataur Rahman Shah Fakir</th>
+						<th>2532</th>
+						<th>1791</th>
+						<th>1714365839</th>
+						<th>ataur2260@gmail.com</th>
+						<th>Narsingdi</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>26</th>
+						<th>Ratna Akter Jui</th>
+						<th>2533</th>
+						<th>1792</th>
+						<th>01704508956</th>
+						<th>ratnaakter890@gmail.com</th>
+						<th>Dhaka</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>27</th>
+						<th>Rifat Ara Nur Rekha</th>
+						<th>2534</th>
+						<th>1793</th>
+						<th>01729993593</th>
+						<th>ranrekha43@gmail.com</th>
+						<th>Sherpur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>28</th>
+						<th>Md. Shoaib Akhter</th>
+						<th>2535</th>
+						<th>1794</th>
+						<th>01685116294</th>
+						<th>sifuisu3@gmail.com</th>
+						<th>Tangail</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>29</th>
+						<th>Iqbal Hossain</th>
+						<th>2536</th>
+						<th>1795</th>
+						<th>01829484214</th>
+						<th>iqbalhossssain@gmail.com</th>
+						<th>Comilla</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>30</th>
+						<th>Md. Rakibul Islam Nahid</th>
+						<th>2537</th>
+						<th>1797</th>
+						<th>01914097884</th>
+						<th>rinahid.27@gmail.com</th>
+						<th>Gazipur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>31</th>
+						<th>Subir Das</th>
+						<th>2539</th>
+						<th>1800</th>
+						<th>01689586905</th>
+						<th>dasjoy104@gmail.com</th>
+						<th>Chittagong</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>32</th>
+						<th>Asif Khan</th>
+						<th>2540</th>
+						<th>1801</th>
+						<th>01627581170</th>
+						<th>asifics0@gmail.com</th>
+						<th>Gazipur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>33</th>
+						<th>Anamika Rahman</th>
+						<th>2541</th>
+						<th>1802</th>
+						<th>01793071766</th>
+						<th>NULL</th>
+						<th>Lakshmipur</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>34</th>
+						<th>Iffat E dil Nishat</th>
+						<th>2542</th>
+						<th>1804</th>
+						<th>01726047504</th>
+						<th>iffatnishat54@gmail.com</th>
+						<th>Chittagong</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>35</th>
+						<th>Krishnoranjon Roy</th>
+						<th>2543</th>
+						<th>1805</th>
+						<th>01738653311</th>
+						<th>krishnoroycse@gmail.com</th>
+						<th>Nilmfamari</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>36</th>
+						<th>Md. Naimul Islam Tipu</th>
+						<th>2544</th>
+						<th>1806</th>
+						<th>01748313779</th>
+						<th>tipucse05@gmail.com</th>
+						<th>Cumilla</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>37</th>
+						<th>Nustat Jahan</th>
+						<th>2545</th>
+						<th>1807</th>
+						<th>01729909795</th>
+						<th>nusratsizy808@gmail.com</th>
+						<th>Barisal</th>
+						<th>NULL</th>
+					</tr>
+					<tr>
+						<th>38</th>
+						<th>Salman Rahman</th>
+						<th>2547</th>
+						<th>1810</th>
+						<th>01517194869</th>
+						<th>salman.sahaz.bd@gmail.com</th>
+						<th>Rajbari</th>
+						<th>NULL</th>
+					</tr>
 
-			</thead>
+				</tbody>
 
-		</table>
+				</thead>
 
+			</table>
+		</div>
 	</div>
-
-	<script src="app.js"></script>
 
 	<footer>
 		<p>Author: Saon Sikder<br>
-			E-mail: <a href="mailto:sikdersaon1@gmail.com">sikdersaon1@gmail.com</a></p>
-	  </footer>
+			E-mail: <a href="mailto:sikdersaon1@gmail.com">sikdersaon1@gmail.com</a><br>
+			Project's Github Link: <a href="https://github.com/Saon00/search-student-info">
+				https://github.com/Saon00/search-student-info</a>
+		</p>
+	</footer>
+
+	<script src="app.js"></script>
 
 </body>
 
